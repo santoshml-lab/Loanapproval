@@ -5,8 +5,8 @@ import joblib
 
 model = joblib.load("model.pkl")
 columns = joblib.load("columns.pkl")
-le_edu = joblib.load("le_edu.pkl")
-le_emp = joblib.load("le_emp.pkl")
+
+
 
 st.title("Loan Approval Dashboard")
 
